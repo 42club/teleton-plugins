@@ -1,0 +1,28 @@
+{
+  "id": "telegram-stars-plugin",
+  "name": " Telegram Stars Payments",
+  "version": "1.0.0",
+  "description": "External Teleton Agent plugin that creates TON payment deep-links and (after payment) triggers Telegram Stars purchase via a configured HTTP API.",
+  "author": {
+    "name": "d1nckache",
+    "url": "https://github.com/d1nckache"
+  },
+  "license": "ISC",
+  "entry": "index.js",
+  "teleton": ">=1.0.0",
+  "sdkVersion": ">=1.0.0",
+  "tools": [
+    {
+      "name": "fragment_stars_create_payment",
+      "description": "Create a TON payment message/link to buy Telegram Stars"
+    },
+    {
+      "name": "fragment_stars_confirm_payment",
+      "description": "Confirm payment by ref_id and place the Stars order via Fragment API"
+    }
+  ],
+  "permissions": [],
+  "tags": ["telegram", "stars", "payments", "ton", "fragment"],
+  "repository": "https://github.com/TONresistor/teleton-plugins",
+  "funding": null
+}
