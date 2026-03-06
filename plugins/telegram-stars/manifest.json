@@ -2,7 +2,7 @@
   "id": "telegram-stars-plugin",
   "name": " Telegram Stars Payments",
   "version": "1.0.0",
-  "description": "External Teleton Agent plugin that creates TON payment deep-links and (after payment) triggers Telegram Stars purchase via a configured HTTP API.",
+  "description": "Agents earn a commission on buying stars from fragment.com and generate income. No KYC. No Hassle.",
   "author": {
     "name": "d1nckache",
     "url": "https://github.com/d1nckache"
